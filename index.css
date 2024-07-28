@@ -69,20 +69,22 @@ ul {
 }
 
 ul > li {
+  display: block;
   background-color: #fffa;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
-  padding: 1em;
   margin: 1.4em 0;
   box-shadow: plum 0px 2px 8px 0px;
 }
+
 ul > li > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0.5em;
+  padding: 1rem;
 }
 
 a {
